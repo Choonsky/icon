@@ -1,0 +1,10 @@
+basic-icon:
+  service:
+    name: "IconService"
+    presents:
+      burrito: 127791
+      avocado: 129361
+      shamrock: 9752
+
+server:
+  port: 8001
