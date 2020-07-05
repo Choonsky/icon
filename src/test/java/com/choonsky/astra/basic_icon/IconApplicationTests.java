@@ -27,7 +27,7 @@ public class IconApplicationTests {
 		assertEquals("<h1>Here is your \uD83C\uDF2F from IconService!!!</h1>", burritoGreeting);
 		assertEquals("<h1>Here is your \uD83E\uDD51 from IconService!!!</h1>", avocadoGreeting);
 		assertEquals("<h1>Here is your ☘ from IconService!!!</h1>", shamrockGreeting);
-		assertEquals("<h1>Plain greeting from IconService!!!</h1>", defaultGreeting);
+		assertEquals("<h1>Here is your present, Developer!!!</h1>", defaultGreeting);
 
 	}
 

@@ -15,12 +15,8 @@ public class IconController {
 
 	@RequestMapping("/")
 	public String getGreeting() {
-		LOG.info("Plain greeting from " + iconProperties.getName());
-		return new StringBuilder("<h1>")
-				.append("Plain greeting from ")
-				.append(iconProperties.getName())
-				.append("!!!</h1>")
-				.toString();
+		LOG.info("Greetings, " + iconProperties.getRole());
+		return String.format("<h1>Here is your present, %s!!!</h1>", iconProperties.getRole());
 	}
 
 	@RequestMapping("/{present}")
@@ -33,4 +29,5 @@ public class IconController {
 				.append("!!!</h1>")
 				.toString();
 	}
+
 }

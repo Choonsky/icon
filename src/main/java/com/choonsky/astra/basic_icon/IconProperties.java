@@ -7,8 +7,9 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @Getter
 @Setter
-@ConfigurationProperties("basic-icon.service")
+@ConfigurationProperties("basic-icon")
 public class IconProperties {
 	String name;
 	Map<String, Integer> presents;
+	String role;
 }

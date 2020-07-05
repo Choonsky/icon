@@ -6,10 +6,10 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 
 @SpringBootApplication
 @EnableConfigurationProperties(IconProperties.class)
-public class IconApplication {
+public class IconClient {
 
 	public static void main(String[] args) {
-		SpringApplication.run(IconApplication.class, args);
+		SpringApplication.run(IconClient.class, args);
 	}
 
 }
